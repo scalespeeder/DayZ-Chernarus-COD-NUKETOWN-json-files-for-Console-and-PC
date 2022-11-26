@@ -50,20 +50,20 @@ This file tells your server to access your custom file.
 
 Edit it to look like this: 
 
-	"objectSpawnersArr": ["custom/nuketownstructures.json"]
+	"objectSpawnersArr": ["custom/nuketownstructures.json"],
 	
 THIS WILL SPAWN IN THE NUKETOWN BUILDINGS, BUT NOT THE WEAPONS WHEN YOU RESTART THE SERVER.
 
 If you want the weapons too, edit it to look like this:
 
-	"objectSpawnersArr": ["custom/nuketownstructures.json","custom/nukeweapons.json"]
+	"objectSpawnersArr": ["custom/nuketownstructures.json","custom/nukeweapons.json"],
 	
 WARNING: THIS IS NOT THE IDEAL WAY TO SPAWN WEAPONS, AND WILL CAUSE DUPLICATION ISSUES. WHEN YOUR NUKETOWN EVENT IS
 OVER, REMOVE "custom/nukeweapons.json" FROM THE "objectSpawnersArr" LINE, AND THE WEAPONS WILL START TO DESPAWN.
 	
 If you already are calling custom jsons to spawn items, seperate the files like this:
 
-	"objectSpawnersArr": ["custom/nuketownstructures.json","custom/nukeweapons.json","custom/differentfile.json"]
+	"objectSpawnersArr": ["custom/nuketownstructures.json","custom/nukeweapons.json","custom/differentfile.json"],
 	
 Save your changes & upload if you need to.
 
